@@ -38,6 +38,7 @@ public class xmlParse {
 			System.out.println("----------------------------");
 			ContentUI.s = "";
 			ContentUI.s = StartUp.fp + "\n";
+			ContentUI.tArea.setText("");
 			ContentUI.tArea.append(StartUp.fp+"\n");
 		 
 			for (int temp = 0; temp < nList.getLength(); temp++) {
